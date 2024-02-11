@@ -25,7 +25,7 @@ let allahAkberInitialValue = 0;
 //increament
 subhanAllahIncrimentBtn.addEventListener('click', function () {
     if (subhanAllahInitialValue >= 33) {
-        return alert('হে ইমানদার ব্যাক্তি আপাতত ৩৩ বার সুবহান-আল্লাহ পড়েন, প্রত্যেক নামাযের পরে')
+        return alert('হে ঈমানদার ব্যাক্তি ৩৩ বার সুবহান-আল্লাহ পড়া হয়েছে এখন আলহামদুলিল্লাহ পড়ুন ৩৩ বার')
     }
     subhanAllahInitialValue += 1;
     subhanAllahDisplay.innerText = subhanAllahInitialValue;
@@ -33,7 +33,7 @@ subhanAllahIncrimentBtn.addEventListener('click', function () {
 //increament
 subhanAllahDecrimentBtn.addEventListener('click', function () {
     if (subhanAllahInitialValue === 0) {
-        return alert('অনুগ্রহ করে increament বাটন এ টাচ করে করে সুবহান-আল্লাহ ৩৩ বার করে পড়ুন প্রত্যেক নামাযের পরে')
+        return alert('শুন্য এর আগে আর কোনো সংখ্যা নেই')
     }
     subhanAllahInitialValue -= 1;
     subhanAllahDisplay.innerText = subhanAllahInitialValue;
@@ -43,7 +43,7 @@ subhanAllahDecrimentBtn.addEventListener('click', function () {
 //increament
 alhamdulillahIncrimentBtn.addEventListener('click', function () {
     if (alhamdulillahInitialValue >= 33) {
-        return alert('হে ইমানদার ব্যাক্তি আপাতত ৩৩ বার  আলহামদুলিল্লাহ পড়েন, প্রত্যেক নামাযের পরে')
+        return alert('হে ঈমানদার ব্যাক্তি ৩৩ বার আলহামদুলিল্লাহ পড়া হয়েছে এখন আল্লাহু-আকবার পড়ুন ৩৩ বার')
     }
     alhamdulillahInitialValue += 1;
     alhamdulillahDisplay.innerText = alhamdulillahInitialValue;
@@ -51,7 +51,7 @@ alhamdulillahIncrimentBtn.addEventListener('click', function () {
 //decreament
 alhamdulillahDecrimentBtn.addEventListener('click', function () {
     if (alhamdulillahInitialValue === 0) {
-        return alert('অনুগ্রহ করে increament বাটন এ টাচ করে করে আলহামদুলিল্লাহ ৩৩ বার করে পড়ুন প্রত্যেক নামাযের পরে')
+        return alert('শুন্য এর আগে আর কোনো সংখ্যা নেই')
     }
     alhamdulillahInitialValue -= 1;
     alhamdulillahDisplay.innerText = alhamdulillahInitialValue;
@@ -62,7 +62,7 @@ alhamdulillahDecrimentBtn.addEventListener('click', function () {
 //increament
 allahAkberIncrimentBtn.addEventListener('click', function () {
     if (alhamdulillahInitialValue >= 33) {
-        return alert('হে ইমানদার ব্যাক্তি আপাতত ৩৩ বার আল্লাহু-আকবার পড়েন, প্রত্যেক নামাযের পরে')
+        return alert('হে ঈমানদার ব্যাক্তি ৩৩ বার আলহামদুলিল্লাহ পড়া হয়েছে  এবং পরবর্তী নামাযে আবার সুবহান-আল্লাহ ৩৩ বার, আলহামদুলিল্লাহ ৩৩ বার, এবং আল্লাহু-আকবার ৩৩ বার করে ৯৯ বার পড়বেন')
     }
     allahAkberInitialValue += 1;
     allahAkberDisplay.innerText = allahAkberInitialValue;
@@ -70,7 +70,7 @@ allahAkberIncrimentBtn.addEventListener('click', function () {
 //decreament
 allahAkberDecrimentBtn.addEventListener('click', function () {
     if (allahAkberInitialValue === 0) {
-        return alert('অনুগ্রহ করে increament বাটন এ টাচ করে করে আল্লাহু-আকবার ৩৩ বার করে পড়ুন প্রত্যেক নামাযের পরে')
+        return alert('শুন্য এর আগে আর কোনো সংখ্যা নেই')
     }
     allahAkberInitialValue -= 1;
     allahAkberDisplay.innerText = allahAkberInitialValue;
