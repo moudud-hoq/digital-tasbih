@@ -24,11 +24,17 @@ let allahAkberInitialValue = 0;
 //SubhanAllah Button
 //increament
 subhanAllahIncrimentBtn.addEventListener('click', function () {
+    if (subhanAllahInitialValue >= 33) {
+        return alert('হে ইমানদার ব্যাক্তি আপাতত ৩৩ বার সুবহান-আল্লাহ পড়েন, প্রত্যেক নামাযের পরে')
+    }
     subhanAllahInitialValue += 1;
     subhanAllahDisplay.innerText = subhanAllahInitialValue;
 })
 //increament
 subhanAllahDecrimentBtn.addEventListener('click', function () {
+    if (subhanAllahInitialValue === 0) {
+        return alert('অনুগ্রহ করে increament বাটন এ টাচ করে করে সুবহান-আল্লাহ ৩৩ বার করে পড়ুন প্রত্যেক নামাযের পরে')
+    }
     subhanAllahInitialValue -= 1;
     subhanAllahDisplay.innerText = subhanAllahInitialValue;
 })
@@ -36,11 +42,17 @@ subhanAllahDecrimentBtn.addEventListener('click', function () {
 //Alhamdulillah Button
 //increament
 alhamdulillahIncrimentBtn.addEventListener('click', function () {
+    if (alhamdulillahInitialValue >= 33) {
+        return alert('হে ইমানদার ব্যাক্তি আপাতত ৩৩ বার  আলহামদুলিল্লাহ পড়েন, প্রত্যেক নামাযের পরে')
+    }
     alhamdulillahInitialValue += 1;
     alhamdulillahDisplay.innerText = alhamdulillahInitialValue;
 })
 //decreament
 alhamdulillahDecrimentBtn.addEventListener('click', function () {
+    if (alhamdulillahInitialValue === 0) {
+        return alert('অনুগ্রহ করে increament বাটন এ টাচ করে করে আলহামদুলিল্লাহ ৩৩ বার করে পড়ুন প্রত্যেক নামাযের পরে')
+    }
     alhamdulillahInitialValue -= 1;
     alhamdulillahDisplay.innerText = alhamdulillahInitialValue;
 })
@@ -49,11 +61,17 @@ alhamdulillahDecrimentBtn.addEventListener('click', function () {
 //Allahuakbar Button
 //increament
 allahAkberIncrimentBtn.addEventListener('click', function () {
+    if (alhamdulillahInitialValue >= 33) {
+        return alert('হে ইমানদার ব্যাক্তি আপাতত ৩৩ বার আল্লাহু-আকবার পড়েন, প্রত্যেক নামাযের পরে')
+    }
     allahAkberInitialValue += 1;
     allahAkberDisplay.innerText = allahAkberInitialValue;
 })
 //decreament
 allahAkberDecrimentBtn.addEventListener('click', function () {
+    if (allahAkberInitialValue === 0) {
+        return alert('অনুগ্রহ করে increament বাটন এ টাচ করে করে আল্লাহু-আকবার ৩৩ বার করে পড়ুন প্রত্যেক নামাযের পরে')
+    }
     allahAkberInitialValue -= 1;
     allahAkberDisplay.innerText = allahAkberInitialValue;
 })
