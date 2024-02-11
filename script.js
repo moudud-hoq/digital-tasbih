@@ -22,26 +22,38 @@ let allahAkberInitialValue = 0;
 //এই ফাংশনের মধ্যে আমরা যা এক্সিকিউট করতে চাইবো ইউজার বাটনে ক্লিক করার মাধ্যমে তাই সামনে চলে আসবে। তার মানে এই ফাংশনেই কন্ডিশন, লুপ, সহ যা যা আছে চলবে।
 
 //SubhanAllah Button
+//increament
 subhanAllahIncrimentBtn.addEventListener('click', function () {
     subhanAllahInitialValue += 1;
     subhanAllahDisplay.innerText = subhanAllahInitialValue;
 })
-
+//increament
 subhanAllahDecrimentBtn.addEventListener('click', function () {
     subhanAllahInitialValue -= 1;
     subhanAllahDisplay.innerText = subhanAllahInitialValue;
 })
 
-
 //Alhamdulillah Button
+//increament
 alhamdulillahIncrimentBtn.addEventListener('click', function () {
     alhamdulillahInitialValue += 1;
+    alhamdulillahDisplay.innerText = alhamdulillahInitialValue;
+})
+//decreament
+alhamdulillahDecrimentBtn.addEventListener('click', function () {
+    alhamdulillahInitialValue -= 1;
     alhamdulillahDisplay.innerText = alhamdulillahInitialValue;
 })
 
 
 //Allahuakbar Button
+//increament
 allahAkberIncrimentBtn.addEventListener('click', function () {
     allahAkberInitialValue += 1;
+    allahAkberDisplay.innerText = allahAkberInitialValue;
+})
+//decreament
+allahAkberDecrimentBtn.addEventListener('click', function () {
+    allahAkberInitialValue -= 1;
     allahAkberDisplay.innerText = allahAkberInitialValue;
 })
