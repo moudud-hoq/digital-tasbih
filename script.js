@@ -24,7 +24,7 @@ let allahAkberInitialValue = 0;
 //SubhanAllah Button
 //increament
 subhanAllahIncrimentBtn.addEventListener('click', function () {
-    if (subhanAllahInitialValue >= 33) {
+    if (subhanAllahInitialValue >= 33/*subhanAllahInitialValue === 33*/) {
         return alert('হে ঈমানদার ব্যাক্তি ৩৩ বার সুবহান-আল্লাহ পড়া হয়েছে এখন আলহামদুলিল্লাহ পড়ুন ৩৩ বার')
     }
     subhanAllahInitialValue += 1;
@@ -74,4 +74,22 @@ allahAkberDecrimentBtn.addEventListener('click', function () {
     }
     allahAkberInitialValue -= 1;
     allahAkberDisplay.innerText = allahAkberInitialValue;
+})
+
+
+//Reset Button
+resetBtn.addEventListener('click', function () {
+    //subhanAllahInitialValue reset by 0
+    subhanAllahInitialValue = 0;
+    subhanAllahDisplay.innerText = subhanAllahInitialValue;
+
+    //alhamdulillahInitialValue reset by 0
+    alhamdulillahInitialValue = 0;
+    alhamdulillahDisplay.innerText = alhamdulillahInitialValue;
+
+    //allahAkberInitialValue reset by 0
+    allahAkberInitialValue = 0;
+    allahAkberDisplay.innerText = allahAkberInitialValue
+
+
 })
