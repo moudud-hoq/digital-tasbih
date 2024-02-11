@@ -77,19 +77,30 @@ allahAkberDecrimentBtn.addEventListener('click', function () {
 })
 
 
-//Reset Button
-resetBtn.addEventListener('click', function () {
-    //subhanAllahInitialValue reset by 0
+// //Reset Button method 01
+// resetBtn.addEventListener('click', function () {
+//     //subhanAllahInitialValue reset by 0
+//     subhanAllahInitialValue = 0;
+//     subhanAllahDisplay.innerText = subhanAllahInitialValue;
+
+//     //alhamdulillahInitialValue reset by 0
+//     alhamdulillahInitialValue = 0;
+//     alhamdulillahDisplay.innerText = alhamdulillahInitialValue;
+
+//     //allahAkberInitialValue reset by 0
+//     allahAkberInitialValue = 0;
+//     allahAkberDisplay.innerText = allahAkberInitialValue
+// })
+
+//Reset Button method 02
+function resetValues() {
     subhanAllahInitialValue = 0;
-    subhanAllahDisplay.innerText = subhanAllahInitialValue;
-
-    //alhamdulillahInitialValue reset by 0
     alhamdulillahInitialValue = 0;
-    alhamdulillahDisplay.innerText = alhamdulillahInitialValue;
-
-    //allahAkberInitialValue reset by 0
     allahAkberInitialValue = 0;
-    allahAkberDisplay.innerText = allahAkberInitialValue
 
-
-})
+    subhanAllahDisplay.innerText = subhanAllahInitialValue;
+    alhamdulillahDisplay.innerText = alhamdulillahInitialValue;
+    allahAkberDisplay.innerText = allahAkberInitialValue;
+}
+// Reset Button
+resetBtn.addEventListener('click', resetValues);
