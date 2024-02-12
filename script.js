@@ -61,7 +61,7 @@ alhamdulillahDecrimentBtn.addEventListener('click', function () {
 //Allahuakbar Button
 //increament
 allahAkberIncrimentBtn.addEventListener('click', function () {
-    if (alhamdulillahInitialValue >= 33) {
+    if (allahAkberInitialValue >= 33) {
         return alert('হে ঈমানদার ব্যাক্তি ৩৩ বার আলহামদুলিল্লাহ পড়া হয়েছে  এবং পরবর্তী নামাযে আবার সুবহান-আল্লাহ ৩৩ বার, আলহামদুলিল্লাহ ৩৩ বার, এবং আল্লাহু-আকবার ৩৩ বার করে ৯৯ বার পড়বেন')
     }
     allahAkberInitialValue += 1;
